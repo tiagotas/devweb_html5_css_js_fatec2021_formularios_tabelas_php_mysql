@@ -1,0 +1,50 @@
+
+#corpo-tabela {
+    background: cyan;
+    padding:5% 0 5% 0;
+    /*padding-top: 5%;*/
+}
+
+table {
+    background: pink;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*border:2px dotted #000;*/
+    border-collapse: collapse;
+    padding:1%;
+    box-shadow: 10px 10px 20px #000;
+    text-align: center;
+}
+
+table thead tr th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table thead tr th:last-child {
+    border-top-right-radius: 10px;  
+}
+
+table thead th {
+    background: #000;  
+    color: #FFF;
+    padding:10px;
+    text-transform:uppercase;    
+}
+
+table tbody tr td {
+    padding:5px;
+}
+
+table tbody tr:hover {
+    background: yellowgreen;
+    cursor: pointer;
+}
+
+table tbody tr:hover:last-child > td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tbody tr:hover:last-child > td:last-child {
+    border-bottom-right-radius: 10px;
+}
